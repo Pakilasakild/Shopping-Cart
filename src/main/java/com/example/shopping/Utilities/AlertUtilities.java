@@ -16,7 +16,7 @@ public class AlertUtilities {
         Alert alert = new Alert(Alert.AlertType.ERROR);
         styleDialog(alert);
         alert.setContentText(content);
-        alert.setHeaderText("Klaida!");
+        alert.setHeaderText("Error!");
         alert.showAndWait();
     }
 
